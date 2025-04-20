@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>K. Rishika Chowdary - Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
   <style>
     :root {
       --bg: #fff9f5;
@@ -109,6 +110,12 @@
       color: var(--primary);
     }
 
+    .project-img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+
     footer {
       text-align: center;
       padding: 30px;
@@ -123,6 +130,7 @@
   <header>
     <div><strong>Rishika's Portfolio</strong></div>
     <nav>
+      <a href="#about">About</a>
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
       <a href="#education">Education</a>
@@ -141,7 +149,16 @@
 
   <div class="container">
 
-    <div class="section" id="skills">
+    <div class="section" id="about" data-aos="fade-up">
+      <h2>About Me</h2>
+      <p>
+        I’m an enthusiastic and driven individual with a strong passion for learning and growth. 
+        I thrive in dynamic environments, adapt quickly to new challenges, and value collaboration. 
+        With a positive and easygoing attitude, I embrace opportunities that push my boundaries and help me evolve both personally and professionally.
+      </p>
+    </div>
+
+    <div class="section" id="skills" data-aos="fade-up">
       <h2>Skills & Tools</h2>
       <ul>
         <li>Languages: C, Python, Java</li>
@@ -149,7 +166,7 @@
       </ul>
     </div>
 
-    <div class="section" id="projects">
+    <div class="section" id="projects" data-aos="fade-up">
       <h2>Projects</h2>
       <ul>
         <li>
@@ -157,9 +174,10 @@
           Developing a smart assistance platform for vehicle breakdown support on the Outer Ring Road.
         </li>
       </ul>
+      <img src="https://undraw.co/api/illustrations/2e50f46f-d18f-4442-9cb7-20a646a9d13a" alt="Project Illustration" class="project-img" />
     </div>
 
-    <div class="section" id="education">
+    <div class="section" id="education" data-aos="fade-up">
       <h2>Education</h2>
       <ul>
         <li>GNITS – B.Tech in IT, CGPA: 8.4/10</li>
@@ -168,7 +186,7 @@
       </ul>
     </div>
 
-    <div class="section" id="certificates">
+    <div class="section" id="certificates" data-aos="fade-up">
       <h2>Certificates</h2>
       <ul>
         <li>Infosys Springboard</li>
@@ -176,7 +194,7 @@
       </ul>
     </div>
 
-    <div class="section" id="activities">
+    <div class="section" id="activities" data-aos="fade-up">
       <h2>Activities & Interests</h2>
       <ul>
         <li>NSS Volunteer</li>
@@ -186,7 +204,7 @@
       </ul>
     </div>
 
-    <div class="section" id="coursework">
+    <div class="section" id="coursework" data-aos="fade-up">
       <h2>Relevant Coursework</h2>
       <ul>
         <li>Database Management Systems</li>
@@ -196,7 +214,7 @@
       </ul>
     </div>
 
-    <div class="section" id="contact">
+    <div class="section" id="contact" data-aos="fade-up">
       <h2>Contact</h2>
       <p>Email: <a href="mailto:rishikachowdarykaranam@gmail.com">rishikachowdarykaranam@gmail.com</a></p>
       <p>Phone: 9949858639</p>
@@ -207,6 +225,11 @@
   <footer>
     © 2025 K. Rishika Chowdary. All rights reserved.
   </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000 });
+  </script>
 
 </body>
 </html>
