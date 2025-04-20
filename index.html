@@ -1,140 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>K. Rishika Chowdary - Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Roboto', sans-serif;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K. Rishika Chowdary - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
 
-    body {
-      background-color: #0f0f0f;
-      color: #ffffff;
-      padding: 30px;
-    }
+        body {
+            background-color: #0f0f0f;
+            color: #ffffff;
+            padding: 30px;
+        }
 
-    .container {
-      max-width: 1000px;
-      margin: auto;
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 30px;
-    }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+        }
 
-    .section {
-      background: #1c1c1c;
-      padding: 25px;
-      border-radius: 15px;
-      box-shadow: 0 0 15px rgba(0, 255, 170, 0.2);
-      transition: transform 0.3s ease;
-    }
+        .section {
+            background: #1c1c1c;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 255, 170, 0.2);
+            transition: transform 0.3s ease;
+        }
 
-    .section:hover {
-      transform: translateY(-5px);
-    }
+        .section:hover {
+            transform: translateY(-5px);
+        }
 
-    h1, h2 {
-      color: #00ffaa;
-    }
+        h1, h2 {
+            color: #00ffaa;
+        }
 
-    .btn {
-      display: inline-block;
-      padding: 10px 20px;
-      margin-top: 10px;
-      background-color: #00ffaa;
-      color: #000;
-      border-radius: 5px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: background 0.3s;
-    }
+        a {
+            color: #00ffaa;
+            text-decoration: underline;
+        }
 
-    .btn:hover {
-      background-color: #00dd99;
-    }
+        ul {
+            list-style: none;
+            margin-top: 10px;
+        }
 
-    ul {
-      list-style: none;
-      margin-top: 10px;
-    }
+        li::before {
+            content: '▹';
+            color: #00ffaa;
+            margin-right: 10px;
+        }
 
-    li::before {
-      content: '▹';
-      color: #00ffaa;
-      margin-right: 10px;
-    }
-  </style>
+        .highlight {
+            color: #00ffaa;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
+    <div class="container">
 
-    <div class="section">
-      <h1>K. Rishika Chowdary</h1>
-      <p>B.Tech in Computer Science (Data Science), Graduating 2027</p>
-      <p>G. Narayanamma Institute of Technology and Science</p>
-      <p>Email: <a href="mailto:rishikachowdarykaranam@gmail.com" style="color:#00ffaa;">rishikachowdarykaranam@gmail.com</a></p>
-      <a href="mailto:rishikachowdarykaranam@gmail.com" class="btn">Send Email</a>
-      <p>Phone: 9949858639</p>
+        <div class="section">
+            <h1>K. Rishika Chowdary</h1>
+            <p>B.Tech in Computer Science (Data Science), Graduating 2027</p>
+            <p>G. Narayanamma Institute of Technology and Science</p>
+            <p>Email: <a href="mailto:rishikachowdarykaranam@gmail.com">rishikachowdarykaranam@gmail.com</a></p>
+            <p>Phone: 9949858639</p>
+        </div>
+
+        <div class="section">
+            <h2>Skills & Tools</h2>
+            <ul>
+                <li>Languages: C, Python, Java</li>
+                <li>Tools: DBMS, Git (Basics)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <span class="highlight">Fuel and Mechanic Service on ORR</span> – In Progress<br>
+                    Developing a smart assistance platform for vehicle breakdown support on the Outer Ring Road.
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li>GNITS – B.Tech in IT, CGPA: 8.4/10</li>
+                <li>Narayana College – Intermediate, 93%</li>
+                <li>AMS P. Obul Reddy Public School – 7 CGPA</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Certificates</h2>
+            <ul>
+                <li>Infosys Springboard</li>
+                <li>College Technical Fest Participation</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Activities & Interests</h2>
+            <ul>
+                <li>NSS Volunteer</li>
+                <li>Volunteer at StreetCause</li>
+                <li>Reading Books</li>
+                <li>Music</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Relevant Coursework</h2>
+            <ul>
+                <li>Database Management Systems</li>
+                <li>Data Structures & Algorithms</li>
+                <li>Python Programming</li>
+                <li>Probability and Statistics</li>
+            </ul>
+        </div>
+
     </div>
-
-    <div class="section">
-      <h2>Skills & Tools</h2>
-      <ul>
-        <li>Languages: C, Python, Java</li>
-        <li>Tools: DBMS, Git (Basics)</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Projects</h2>
-      <ul>
-        <li>Fuel and Mechanic Service on ORR (In Progress)</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Education</h2>
-      <ul>
-        <li>GNITS – B.Tech in IT, CGPA: 8.4/10</li>
-        <li>Narayana College – Intermediate, 93%</li>
-        <li>AMS P. Obul Reddy Public School – 7 CGPA</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Certificates</h2>
-      <ul>
-        <li>Infosys Springboard</li>
-        <li>College Technical Fest Participation</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Activities & Interests</h2>
-      <ul>
-        <li>NSS Volunteer</li>
-        <li>Volunteer at StreetCause</li>
-        <li>Reading Books</li>
-        <li>Music</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Relevant Coursework</h2>
-      <ul>
-        <li>Database Management Systems</li>
-        <li>Data Structures & Algorithms</li>
-        <li>Python Programming</li>
-        <li>Probability and Statistics</li>
-      </ul>
-    </div>
-
-  </div>
 </body>
 </html>
